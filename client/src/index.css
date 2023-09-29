@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  color: white
+}
+
+/* Header section */
+
+.Header{
+  max-width: 90%;
+  margin: 25px auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+
+  /* color: white; */
+}
+
+.Header .Logo{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Header .Logo a{
+  text-decoration: none;
+}
+
+.Header .Navigation{
+  font-size: 23px;
+
+  display: flex;
+  gap: 15px;
+}
+
+.Header .Navigation a{
+  text-decoration: none;
+  /* color: white; */
+}
+
+/* Home section */
+
+.Home, .Login, .Register{
+  height: 2000px;
+  max-width: 90%;
+  margin: 5px auto;
+  padding: 5px;
+
+  background-color: #141414;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+/* Post section */
+
+.Post{
+  background-color: #141414;
+  display: flex;
+  gap: 25px;
+  padding: 15px;
+}
+
+.Post img{
+  width: 250px;
+
+  object-fit: fill;
+}
+
+.Post .Postcard{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Login and Register section */
+
+.Login, .Register{
+  padding: 7%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.Login, .Register h1{
+  text-align: center;
+}
+
+
+.Login input, .Register input{
+  border-radius: 10px;
+  height: 50px;
+  background-color: rgb(224, 224, 224);
+  border: 2px solid black;
+
+  color: black
+}
+
+.Login button, .Register button{
+  border-radius: 10px;
+  height: 50px;
+  border: 2px solid black;
+
+  font-size: 24px;
+
+  cursor: pointer;
+}
